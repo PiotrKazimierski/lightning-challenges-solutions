@@ -1,29 +1,27 @@
 /**
  * Challenge: Create a Simple Person Class
- *
- * @description
- * Create a class to represent a person with properties for name and age,
- * a constructor to initialize these properties, and a method to return
- * a greeting message.
  */
 public class Person {
-    // TODO: Add properties for name and age
+    
+    // Properties for name and age
+    public String name;
+    public Integer age;
     
     /**
      * Constructor to initialize the Person with a name and age
-     * 
-     * @param name The person''s name
-     * @param age The person''s age
      */
-    // TODO: Create the constructor
+    public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
     
     /**
-     * Returns a greeting message including the person''s name and age
-     * 
-     * @return A greeting string in the format: "Hello, my name is {name} and I am {age} years old."
+     * Returns a greeting message including the person's name and age
      */
     public String greet() {
-        // TODO: Implement the greeting method
-        return ''''; // Replace with your implementation
+        return String.format('Hello, my name is {0} and I am {1} years old.', new List<String>{
+            this.name, 
+            String.valueOf(this.age)
+        });
     }
 }
