@@ -15,9 +15,6 @@ Solutions are organized by technology and difficulty level:
 ```text
 📦 lightning-challenges-solutions
  ┣ 📂 Apex
- ┃ ┣ 📂 Easy
- ┃ ┣ 📂 Medium
- ┃ ┗ 📂 Hard
  ┣ 📂 LWC
  ┣ 📂 PD1_Prep
  ┗ 📜 README.md
