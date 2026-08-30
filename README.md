@@ -6,7 +6,7 @@
 
 Welcome to my repository of solutions for [Lightning Challenges](https://www.lightningchallenges.com/). 
 
-Lightning Challenges is a training platform for Salesforce Developers offering production-style Apex and LWC exercises. I use this repository to track my daily coding streak, improve my algorithmic problem-solving, and prepare for the Salesforce Platform Developer 1 (PD1) certification.
+Lightning Challenges is a training platform for Salesforce Developers offering production-style Apex and LWC exercises. I use this repository to track my daily coding streak and improve my algorithmic problem-solving.
 
 ## 📁 Repository Structure
 
